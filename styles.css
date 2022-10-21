@@ -1,0 +1,26 @@
+#main {
+    margin: 15px 5px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+  }
+
+  .titulo_principal {
+    font-family: "UnfinishedScreamRegular";
+    src: url("fonts/UnfinishedScreamRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+  .texto_bienvenida {
+    font-family: "UnfinishedScreamRegular";
+    src: url("fonts/UnfinishedScreamRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+#img {
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
