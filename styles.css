@@ -2,7 +2,7 @@ body {
     background-color: #141412;
 }
 
-#main_1 {
+#main {
     background: white;
     border: 10px solid #2FA71C;
     border-radius: 5px;
@@ -10,7 +10,7 @@ body {
     padding: 15px;
 }
 
-#titulo {
+#title {
 
     font-family: "Legrand";
     src: url("fonts/Legrand.ttf");
@@ -29,16 +29,19 @@ body {
     
 }
 
-#figure {
+#img-div {
     
-    display:flex ;
+    display:block;
     justify-content: center;
+    
 }
 
-#imagen {
+#image {
 
-    width: 400px;
-    height: 500px;
+    max-width: 25%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
     
 }
 
@@ -47,7 +50,7 @@ body {
     height: 150px;
 }
 
-#texto_biografia {
+#tribute-info {
 
     font-family: "Baskervville-Regular";
     src: url("fonts/Baskervville-Regular.ttf");
@@ -207,15 +210,13 @@ footer {
 
 @media all and (max-width: 600px) {
 
-    body {
-        
-    }
 
-    #main_1 {
+
+    #main {
         margin: 0;
       }
 
-    #imagen {
+    #image {
 
         max-width: 100%;
         display: block;
